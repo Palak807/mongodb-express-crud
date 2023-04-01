@@ -8,7 +8,7 @@
     <p>Our CRUD application uses Node.js, Express, and MongoDB to showcase the enchanting world of Studio Ghibli movies. With our app, you can perform CRUD operations to manage data about your favorite Ghibli films. From Spirited Away to Princess Mononoke, our app lets you easily create, read, update, and delete movie information.</p>
     <h2>Installation</h2>
     <ol>
-      <li>Clone the repository: <code>git clone https://github.com/your-username/ghibli-crud-app.git</code></li>
+      <li>Clone the repository: <code>git clone https://github.com/Palak807/mongodb-express-crud.git</code></li>
       <li>Install dependencies: <code>npm install</code></li>
       <li>Start the app: <code>npx nodemon index.js</code></li>
       <li>Open the app in your browser at <code>http://localhost:3000</code></li>
