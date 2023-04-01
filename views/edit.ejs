@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="site">
+        <div class="ui massive menu">
+          <div class="ui container">
+            <div class="header item">
+              <a href="/" class="link">HOME</a>
+            </div>
+            <a class="item">
+              BLOG
+            </a>
+            <a class="item">
+              CONTACT
+            </a>
+            <a class="item">
+              ABOUT
+            </a>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="ui container">
+          <form id ="form" action="/edit/<%- club._id %>" class="ui form" method ="POST">
+            <div class="ui three fields">
+              <div class="field">
+                <label for="name" class="ui header black">Enter the movie name</label>
+                <input type="text" name="name" value = "<%- club.name %>" id ="name">
+              </div>
+              <div class="field">
+                <label for="director" class="ui header black">Enter the director name</label>
+                <input type="text" name="director" value = "<%- club.director %>" id ="director">
+              </div>
+              <div class="field">
+                <label for="year" class="ui header black">Enter the year</label>
+                <input type="text" name="year" value = "<%- club.year %>" id ="year">
+              </div>
+            </div>
+            <div class="ui fluid field">
+              <input type="submit" value="Submit" class="ui button green fluid">
+            </div>
+          </form> 
+
+          <br><br>
+        </div>
+    </div>
+    <script src="/public/js/semantic.min.js"></script>
+</body>
+</html>
